@@ -1,0 +1,92 @@
+#   Clase 2
+#   13/8/26
+#   ¡¡¡ Somos Cinco !!!. 
+
+Arrancamos con parte teorica. 
+Administradores de Bases de Datos.
+
+¿Que es una base de datos?. 
+Sistema organizado de almacenamiento de informacion que permite gestionar,
+acceder y manipular datos de manera eficiente. Estas estructuras son 
+fundamentales en el desarrollo de software, administracion de informacion 
+y toma de decisiones en distintos ambitos. 
+Estan diseñadas para garantizar seguridad, integridad y eficiencia en el manejo 
+de grandes volumenes de informacion, permitiendo multiples usuarios accedan a los datos
+de forma simultanea sin comprometer su coherencia. 
+
+Mariadb lo instalamos en ubuntu. 
+Es algo muy usado a nivel empresarial
+y en diferentes ambitos. 
+
+El soporte para estas herramientas es pago. 
+
+Caracteristicas de una Base de Datos. 
+1)  Almacenamiento estructurado
+        Los datos se organizan de manera logica, segun modelo especifico. 
+2)  Acceso eficiente
+        Permiten consultas rapidas y precisas, ortimizando el rendimiento. 
+3)  Manejo de grandes volumenes de datos. 
+        Pueden gestionar milloes de registros sin afectar su funcionalidad. 
+4)  Seguridad e integridad. 
+        Protegen los datos mediante permisos de acceso, cifrado y respaldo de informacion
+5)  Multiprocesamiento y concurrencia. 
+        Diferentes usuarios pueden acceder y modificar la db sin conflicto
+6)  Persistencia de datos
+        La informacion se mantiene almacenada a largo plazo, incluso si el sistema se apaga. 
+
+Componente de una Base de Datos. 
+1) Datos
+    La informacion almacenada, organizada en registros, filas o documentos, dependiendo del tipo de bases de datos. 
+2)  Software de Gestion de Bases de Datos(DBMS o SGBD)
+    Es el software que permite administrar la base de datos. Controla como se almacenan, acceden y modifican los datos. 
+    MySQL, PostgreSQL, Oracle, Mongodb
+3) Lenguaje de Consulta
+    Se utiliza lenguajes especializados. 
+    SQL(Structured Query Lenguage) Usado en bases de datos relacionales. 
+    NoSQL Conjunto de tecnologias utilizadas en bases de datos no relacionales, como MongoDB o Cassandra
+4)  Estructura de datos
+    La organizacion de los datos varia segun el tipo de base de datos. 
+    Tablas(En base de datos relacionales)
+    Documentos JSON o BSON(En bases de datos NoSQL)
+    Registro clave-valor(En bases de datos en memoria)
+    Nodos y relaciones(En bases de datos de grafos)
+5) Usuarios y Administradores
+    Usuarios finales: Acceden a la base de datos a traves de aplicaciones
+    Desarrolladores: Diseñan la estructura de datos y crean consultas. 
+    Administradores de bases de datos(DBA) Gestionan seguridad, optimizacion y mantenimiento del sistema. 
+
+
+Funciones principales de una base de datos
+1)  Creacion, almacenamiento y actualizacion de datos  
+        Permite ingresar nuevos registros, modificar la informacion existente y eliminar datos innecesarios. 
+2)  Consulta y recuperacion de informacion. 
+        Se puede extraer datos especificos mediantes consultas eficientes. 
+3)  Seguridad y control de acceso. 
+        La base de datos permite establecer permisos de acceso para distintos usuarios asegurando la proteccion de la informacion. 
+4)  Integridad de los datos. 
+        Garantizan que los datos sean consistentes y correctos mediante restricciones como clave primaria y foraneas. 
+5)  Optimizacion del rendimiento
+        Los indices, caches y particionamiento permiten que las bases de datos funcione de manera eficiente incluso con millones de registros. 
+
+Tipos de Bases de datos. 
+1) Bases de datos Relacionales(SQL)
+    Definicion: Organizan la informacion en tablas con filas y columnas. 
+    Utilizan SQL(Structured Query Lenguage) para manipulacion de datos. 
+2) Bases de datos NoSQL
+    Diseñadas para manejar grandes volumenes de datos, con estructura mas flexible que las relacionales
+    a)  Bases de datos de Documentos
+            Almacenan datos en documentos tipo JSON o BSON
+
+    b) Baes de datos de clave-valor
+            Almacena informacion en pares clave-valor, ideales para consultas rapidas. 
+
+    c)  Bases de datos en grafos
+            Modelan datos como nodos y relaciones, utiles para redes sociales y analisis de conexiones
+
+    d)  Bases de datos de columnas anchas
+            Organizan los datos en columnas en lugar de filas, optimizadas para grandes volumenes. 
+
+3)  Bases de datos en Memoria
+            Almacena los datos en la RAM en lugar del disco, lo que mejora rendimiento. 
+
+Solo vamos con las db relacionales

@@ -1,3 +1,28 @@
 #   Clase-3
 #   20/8/26
+#   Somos Siete
 
+Vamos a basarnos sobre el modelo bases de datos relacionales. 
+Son el modelo mas usado. Para ciertos funcionamiento existen otros modelos. 
+Los datos estan basados en como se organizan los datos. 
+Registros que estan basados en tablas. 
+Son de facil gestion de acceso rapido. 
+Las consultas tienen que estar bien hechas, con indices necesarios. 
+Una base de datos relacional, es una recopilacion de elementos 
+de datos con relacion predefinida entre ellos.
+Tablas => Conjunto de columnas y filas 
+Entidades => Es algo que tiene una determinada caracteristica y permite agrupar dichos elementos. 
+Las tablas guardan informacion de entidades. 
+Cada tabla separa una entidad. 
+La columna en una tabla guarda un tipo de datos atributo de una entidad. 
+Al ser mas preciso el tipo de dato le da mas coherencia al registro. 
+Clave principal  => Identificador unico de registro
+Claves foraneas(extranjeras) => Son claves principales de otras tablas
+Cada fila es univoca no se deberia de repetir. 
+Lo distintivo en Relacionales es el lenguaje SQL. 
+Sirve tanto para comunicacion como para administracion de DB. 
+Propiedades ACID(Atomica coherente aislada y duraderas)
+
+Vamos a instalar ubuntu 2404 en un virtualbox
+Es la creacion(a traves del software) de una representacion de un recurso tecnologico. 
+Simula la existencia del recurso tecnologico que se quiere virtualizar. 

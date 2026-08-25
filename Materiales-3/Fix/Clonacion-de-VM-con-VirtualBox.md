@@ -50,9 +50,6 @@ Verificá la IP única asignada: ip a
 Verificá el nombre de host: hostname
 
 
-GPT-5.6 Luna:
-<!-- **Formatting Spanish content**
-
 I need to focus on formatting everything in Spanish while ensuring I use code fences and headings appropriately. There’s a line that says 127.0.1.1 srv... and I’m thinking the example should probably use db02 instead? I need to make sure that I’m maintaining the original content's integrity in the format. Since the user is asking for formatting, I shouldn't alter any of the content but could consider structuring the steps for clarity. -->
 # Clonación de VM con VirtualBox
 

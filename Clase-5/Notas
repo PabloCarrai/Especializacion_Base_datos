@@ -1,0 +1,11 @@
+#   Clase-5
+#   27/8/26
+#   Somos Siete
+
+En instalaciones de SO es recomendable que por ejemplo
+al instalar un ubuntu, el usuario inicial sea un usuario
+que no se usa normalmente. Queda con los datos cerrados
+para el ambito en donde se crea. La logica es luego que 
+cada usuario se cree luego de la instanacion. 
+
+Las unidades en linux son carpetas. No son unidades. 

@@ -1,2 +1,36 @@
 #   Clase-6
 #   1/9/26
+#   Somos Cinco
+
+Conceptos de puertos. 
+
+Punto logico usado por el so que se encarga de
+gestionar servicios de conexion. 
+
+La comunicacion por y hacia la placa de red
+viene por diferentes fuentes. Estas diferentes
+fuentes son los puertos. Serian algo asi como 
+canales de comunicacion. 
+
+Los puertos estan en la capa de transporte. 
+Los puertos se gestionan con un firewall. 
+En ubuntu el nativo es el ufw
+
+El firewall permite habilitar o deshabilitar puertos 
+de servicios. En ubuntu se usa ufw
+
+Por defecto para salir esta todo permitido
+para entrar todo denegado
+
+el 127.0.0.1 es el localhost
+0.0.0.0 es una direccion significa
+acepta conexiones por cualquier 
+interface de red disponible
+
+conexion ssh
+
+ssh usuario@ipservidor
+ssh usuario@192.168.0.249
+
+Al clonar la red, es conveniente hacer algunos cambios. 
+Restablecer la MAC

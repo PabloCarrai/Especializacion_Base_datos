@@ -1,0 +1,8 @@
+#   Clase-8
+#   8/9/26
+#   Somos Seis
+
+Uso de mysqladmin en mariadb
+Administra desde linea de comando motores de db. 
+No ingresa al cliente de la db. Lo hace desde afuera.
+Util para administracion rapida, diagnostico y automatizacion. 

@@ -1,10 +1,8 @@
----
-
 # 🐬 Introducción a MySQL Workbench
 
 > **MySQL Workbench** es la herramienta gráfica oficial desarrollada por Oracle que permite conectarse a servidores MySQL, administrar bases de datos y diseñar esquemas de forma visual, facilitando tareas complejas que tradicionalmente se realizan mediante comandos SQL.
 
----
+___
 
 ## 📌 ¿Qué es MySQL Workbench?
 
@@ -13,7 +11,7 @@ MySQL Workbench actúa como una **interfaz visual cliente**. Es fundamental tene
 * ⚠️ **Aclaración importante:** MySQL Workbench **no es el servidor de base de datos** en sí mismo; es una herramienta cliente que se conecta a un servidor MySQL (local o remoto) para trabajar con él.
 * 👥 Es ampliamente utilizada por **desarrolladores, administradores de bases de datos y usuarios técnicos** para simplificar la interacción con los motores de bases de datos.
 
----
+___
 
 ## ⚡ Funciones Principales
 
@@ -70,7 +68,7 @@ Ofrece paneles de control y métricas en tiempo real:
 * Consulta de información detallada del estado del servidor.
 * Observación de indicadores clave de funcionamiento y rendimiento.
 
----
+___
 
 ## 🧭 Workbench como Herramienta Gráfica
 
@@ -81,11 +79,10 @@ Una de las grandes ventajas de Workbench es su enfoque visual, pero es important
 
 Por este motivo, durante nuestro aprendizaje utilizaremos Workbench como entorno visual principal, combinándolo con consultas SQL directas y herramientas de línea de comandos para dominar la tecnología por completo.
 
----
+___
 
 ## 📥 Descarga y Recursos
 
 La versión oficial y gratuita de MySQL Workbench se encuentra disponible para descarga en el sitio web oficial:
 
-👉 **[Descargar MySQL Workbench](https://dev.mysql.com/downloads/workbench/)**
-
+👉 **[Descargar MySQL Workbench](https://mysql.com)**

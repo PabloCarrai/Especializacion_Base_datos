@@ -88,3 +88,4 @@ Por este motivo, durante nuestro aprendizaje utilizaremos Workbench como entorno
 La versión oficial y gratuita de MySQL Workbench se encuentra disponible para descarga en el sitio web oficial:
 
 👉 **[Descargar MySQL Workbench](https://dev.mysql.com/downloads/workbench/)**
+

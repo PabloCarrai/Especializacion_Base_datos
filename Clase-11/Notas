@@ -1,0 +1,21 @@
+#   Clase-11
+#   17/9/26
+#   Somos Cuatro
+
+
+Tipos de datos. 
+Es util que el tipo de datos sea validado al contenido. 
+El tipo de dato adecuado ayuda el rendimiento de la db. 
+Tambien tener en cuenta el valor valido en dicho campo. 
+Los datos que se pueden calcular, no se guardan. 
+Edad, si tengo fecha de nacimiento la puedo calcular. 
+En una posible mejora, no solo hay que ver el tipo de datos. 
+Sino tambien los datos de la db. Unsigned (quita lo negativo del valor).
+Edad puede ser tymyint unsigned(porque la edad no puede ser negativa).
+El unsigned duplica la cantidad del tipo. 
+Signed unsigned, Permite o no valores negativo. 
+Y duplica tamaño del campo numerico. 
+Decimal(total,digitos) total con digitos.
+Cuando la longitud es fija, el char sirve
+Cuando es diferente conviene varchar.
+Al migrar una db, hay que tener cuidado con el tipo de caracteres. 

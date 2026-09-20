@@ -1,0 +1,31 @@
+/* Practica */
+-- show databases;
+-- create database practica1;
+-- use practica1;
+-- create table personas(id int, nombre varchar(100),fecha_nacimiento date, salario decimal(12,2));
+-- show tables;
+-- describe personas;
+-- create table personas1(nombre varchar(100), edad tinyint unsigned);
+-- insert into personas1 values('Juan',35);
+-- select * from personas1;
+/* Esto no esta bien */
+-- create table productos(id bigint, stock bigint, categoria bigint,descuento bigint);
+-- describe productos;
+-- create table productos1 (id int unsigned, nombre varchar(100), precio decimal(12,2));
+-- insert into productos1 values(1,"Teclado",45999.90);
+-- select * from productos1;
+-- create table mediciones(temperatura float, presion double);
+-- create table noticias(id int unsigned, titulo varchar(200),contenido text);
+-- create table operaciones(id int unsigned, descripcion varchar(200), fecha_operacion datetime);
+-- create table usuarios(id int unsigned auto_increment primary key, usuario varchar(50), creado timestamp default current_timestamp);
+-- insert into usuarios(usuario) values('Pablo');
+-- select * from usuarios;
+-- create table usuarios1(id int unsigned, nombre varchar(100), activo boolean);
+-- insert into usuarios1 values(1,"Juan",true),(1,"Pedro",false);
+-- select * from usuarios1;
+-- create table empleados(id int unsigned, nombre varchar(100), estado enum('ACTIVO','LICENCIA','BAJA'));
+-- insert into empleados values(1,'Pablo','ACTIVO');
+-- select * from empleados;
+-- create table documentos(id int unsigned primary key, nombre varchar(200), ruta varchar(500));
+-- create table personas2(id int unsigned primary key,nombre varchar(100) not null, telefono varchar(30));
+-- create table empleados3(id int unsigned auto_increment primary key, cuil char(11) not null, apellido varchar(100) not null, nombre varchar(100) not null, fecha_nacimiento date, edad tinyint unsigned, sueldo decimal(12,2), activo boolean default true, telefono varchar(30), fecha_ingreso date, observaciones text, creado timestamp default current_timestamp);

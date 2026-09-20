@@ -9,13 +9,34 @@
 | Campo | Tipo Propuesto |
 |---|---|
 | Nombre  |  varchar(50)  |
-| Edad    |  tinyint  |
+| Edad    |  tinyint unsigned |
 | Sueldo  |  decimal(12,2)  |
 | Fecha de nacimiento    |   date  |
 | Teléfono     |   char(10)    |
 | Activo  |  boolean  |
-| Código postal  |   char(4)  |
+| Código postal  |   char(8)  |
 | Observaciones   |  text  |
-| Cantidad de productos  |   smallint  |
+| Cantidad de productos  |   smallint unsigned |
 | Hora de entrada |  time  |
 
+
+[Ejercicio 2]() — Diseñar una tabla
+
+Crear una tabla llamada:
+productos
+que contenga:
+id
+codigo
+nombre
+descripcion
+precio
+stock
+activo
+fecha_alta
+Los alumnos deben decidir:
+- tipo de cada columna;
+- longitud;
+- NULL/NOT NULL;
+- DEFAULT;
+- clave primaria;
+- AUTO_INCREMENT.

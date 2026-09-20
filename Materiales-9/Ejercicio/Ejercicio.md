@@ -20,7 +20,7 @@
 | Hora de entrada |  time  |
 
 
-[Ejercicio 2]() — Diseñar una tabla
+[Ejercicio 2](https://github.com/PabloCarrai/Especializacion_Base_datos/blob/main/Materiales-9/Fix/Tipos-de-datos-en-MariaDB.md#ejercicio-2--dise%C3%B1o-de-tabla-productos) — Diseñar una tabla
 
 Crear una tabla llamada:
 productos
@@ -40,3 +40,20 @@ Los alumnos deben decidir:
 - DEFAULT;
 - clave primaria;
 - AUTO_INCREMENT.
+
+
+```sql
+
+create table productos(
+	id int auto_increment primary key,
+	codigo char(14) not null,
+	nombre varchar(50) not null,
+	descripcion text,
+	precio decimal(12,2)  not null,
+	stock tinyint unsigned default 0, 
+	activo boolean default true,
+	fecha_alta date
+);
+
+
+```

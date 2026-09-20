@@ -63,6 +63,9 @@ create table productos(
 
 
  Ejercicio 3 — Detectar errores
+
+```sql
+
 Analizar la siguiente tabla:
 CREATE TABLE empleados (
     id BIGINT,
@@ -73,6 +76,8 @@ CREATE TABLE empleados (
     telefono BIGINT,
     activo VARCHAR(5)
 );
+
+```
 
 Preguntas:
 1. ¿Qué tipos podrían modificarse?

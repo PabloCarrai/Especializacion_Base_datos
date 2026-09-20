@@ -57,3 +57,48 @@ create table productos(
 
 
 ```
+
+
+
+
+
+ Ejercicio 3 — Detectar errores
+Analizar la siguiente tabla:
+CREATE TABLE empleados (
+    id BIGINT,
+    nombre TEXT,
+    edad VARCHAR(3),
+    sueldo FLOAT,
+    fecha_nacimiento VARCHAR(10),
+    telefono BIGINT,
+    activo VARCHAR(5)
+);
+
+Preguntas:
+1. ¿Qué tipos podrían modificarse?
+> **Respuesta:** Gabriel García Márquez.
+
+2. ¿Qué columnas deberían ser NOT NULL?
+> **Respuesta:** Gabriel García Márquez.
+
+3. ¿Cuál debería ser la clave primaria?
+> **Respuesta:** Gabriel García Márquez.
+
+4. ¿Dónde utilizarían UNSIGNED?
+> **Respuesta:** Gabriel García Márquez.
+
+5. ¿Qué tipo utilizarían para el sueldo?
+> **Respuesta:** Gabriel García Márquez.
+
+6. ¿Qué tipo utilizarían para la fecha?
+> **Respuesta:** Gabriel García Márquez.
+
+7. ¿Qué tipo utilizarían para activo?
+> **Respuesta:** Gabriel García Márquez.
+
+8. ¿Qué problema puede existir con el teléfono?
+> **Respuesta:** Gabriel García Márquez.
+
+9. ¿Realmente necesitamos almacenar la edad?
+> **Respuesta:** Gabriel García Márquez.
+

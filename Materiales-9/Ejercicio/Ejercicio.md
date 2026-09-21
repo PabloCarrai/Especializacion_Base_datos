@@ -3,8 +3,7 @@
 [Ejercicio](https://github.com/PabloCarrai/Especializacion_Base_datos/blob/main/Materiales-9/Fix/Tipos-de-datos-en-MariaDB.md#53-actividades-pr%C3%A1cticas-y-autoevaluaci%C3%B3n)
 
 
-[Ejercicio 1](https://github.com/PabloCarrai/Especializacion_Base_datos/blob/main/Materiales-9/Fix/Tipos-de-datos-en-MariaDB.md#ejercicio-1--identificar-el-tipo-%C3%B3ptimo
-) — Identificar el tipo óptimo
+[Ejercicio 1](https://github.com/PabloCarrai/Especializacion_Base_datos/blob/main/Materiales-9/Fix/Tipos-de-datos-en-MariaDB.md#ejercicio-1--identificar-el-tipo-%C3%B3ptimo) — Identificar el tipo óptimo
 
 | Campo | Tipo Propuesto |
 |---|---|
@@ -58,11 +57,7 @@ create table productos(
 
 ```
 
-
-
-
-
- Ejercicio 3 — Detectar errores
+[Ejercicio 3](https://github.com/PabloCarrai/Especializacion_Base_datos/blob/main/Materiales-9/Fix/Tipos-de-datos-en-MariaDB.md#ejercicio-3--auditor%C3%ADa-y-detecci%C3%B3n-de-errores) — Detectar errores
 
 ```sql
 
@@ -110,7 +105,7 @@ Preguntas:
 
 Texto →
 
-Ejercicio 4 — ¿Número o texto?
+[Ejercicio 4](https://github.com/PabloCarrai/Especializacion_Base_datos/blob/main/Materiales-9/Fix/Tipos-de-datos-en-MariaDB.md#ejercicio-4--n%C3%BAmero-o-texto) — ¿Número o texto?
 Indicar si cada dato debería analizarse como número o como texto:
 
 ```sql
@@ -131,7 +126,8 @@ Debemos preguntarnos:
 ¿Qué representa el dato?
 
 
-. Ejercicio 5 — Crear e insertar datos
+[Ejercicio 5](https://github.com/PabloCarrai/Especializacion_Base_datos/blob/main/Materiales-9/Fix/Tipos-de-datos-en-MariaDB.md#ejercicio-5--creaci%C3%B3n-e-inserci%C3%B3n-de-datos)
+ — Crear e insertar datos
 
 
 > Crear la tabla:
@@ -151,10 +147,7 @@ CREATE TABLE personas (
 
 ```
 
-
-
 Insertar al menos cinco personas:
-
 
 
 ```sql
@@ -173,9 +166,6 @@ VALUES
 ```
 
 
-
-
-
 Luego ejecutar:
 
 
@@ -188,12 +178,10 @@ FROM personas;
 ```
 
 
-
-59. Ejercicio 6 — Consultas
+[Ejercicio 6](https://github.com/PabloCarrai/Especializacion_Base_datos/blob/main/Materiales-9/Fix/Tipos-de-datos-en-MariaDB.md#ejercicio-5--creaci%C3%B3n-e-inserci%C3%B3n-de-datos) — Consultas
 Realizar las siguientes consultas:
 
 Personas activas
-
 
 
 ```sql

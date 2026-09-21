@@ -81,29 +81,29 @@ CREATE TABLE empleados (
 
 Preguntas:
 1. ¿Qué tipos podrían modificarse?
-> **Respuesta:** Gabriel García Márquez.
+> **Respuesta:** id, nombre, sueldo,fecha_nacimiento,telefono, activo 
 
 2. ¿Qué columnas deberían ser NOT NULL?
-> **Respuesta:** Gabriel García Márquez.
+> **Respuesta:** nombre, sueldo, fecha_nacimiento.
 
 3. ¿Cuál debería ser la clave primaria?
-> **Respuesta:** Gabriel García Márquez.
+> **Respuesta:** id.
 
 4. ¿Dónde utilizarían UNSIGNED?
-> **Respuesta:** Gabriel García Márquez.
+> **Respuesta:** id, sueldo.
 
 5. ¿Qué tipo utilizarían para el sueldo?
-> **Respuesta:** Gabriel García Márquez.
+> **Respuesta:** decimal.
 
 6. ¿Qué tipo utilizarían para la fecha?
-> **Respuesta:** Gabriel García Márquez.
+> **Respuesta:** date.
 
 7. ¿Qué tipo utilizarían para activo?
-> **Respuesta:** Gabriel García Márquez.
+> **Respuesta:** boolean.
 
 8. ¿Qué problema puede existir con el teléfono?
-> **Respuesta:** Gabriel García Márquez.
+> **Respuesta:** No permite caracter +.
 
 9. ¿Realmente necesitamos almacenar la edad?
-> **Respuesta:** Gabriel García Márquez.
+> **Respuesta:** No hace falta ya que existe fecha_nacimiento y se puede calcular la edad.
 

@@ -112,13 +112,19 @@ Texto →
 
 Ejercicio 4 — ¿Número o texto?
 Indicar si cada dato debería analizarse como número o como texto:
-12345
-0012345
-+54 11 4567-8900
-100
-000100
-2026
-00123456
+
+```sql
+
+Numero →  12345
+Texto →   0012345
+Texto →   +54 11 4567-8900
+Numero →  100
+Texto →   000100
+Numero →  2026
+Texto →   00123456
+
+
+```
 
 La clave del ejercicio es que no debemos mirar solamente los caracteres que forman el valor.
 Debemos preguntarnos:

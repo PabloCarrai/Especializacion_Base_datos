@@ -266,11 +266,18 @@ FROM personas;
 Responder:
 
 1. ¿Por qué no utilizar VARCHAR para almacenar un precio?
+> **Respuesta:** No permite caracter +.
 2. ¿Por qué un número de teléfono puede ser texto?
+> **Respuesta:** No permite caracter +.
 3. ¿Por qué DATE es preferible a VARCHAR para una fecha?
+> **Respuesta:** No permite caracter +.
 4. ¿Por qué una edad puede ser TINYINT UNSIGNED?
+> **Respuesta:** No permite caracter +.
 5. ¿Por qué un código 001234 podría ser CHAR o VARCHAR y no INT?
+> **Respuesta:** No permite caracter +.
 6. ¿Qué diferencia conceptual existe entre:
+> **Respuesta:** No permite caracter +.
+
 
 ```sql
 

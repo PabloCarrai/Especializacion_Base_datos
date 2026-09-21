@@ -267,23 +267,20 @@ FROM personas;
 ```
 
 60. Actividad final
+
 Responder:
-Pregunta 1
-¿Por qué no utilizar VARCHAR para almacenar un precio?
-Pregunta 2
-¿Por qué un número de teléfono puede ser texto?
-Pregunta 3
-¿Por qué DATE es preferible a VARCHAR para una fecha?
-Pregunta 4
-¿Por qué una edad puede ser TINYINT UNSIGNED?
-Pregunta 5
-¿Por qué un código 001234 podría ser CHAR o VARCHAR y no INT?
-Pregunta 6
-¿Qué diferencia conceptual existe entre:
+
+1. ¿Por qué no utilizar VARCHAR para almacenar un precio?
+2. ¿Por qué un número de teléfono puede ser texto?
+3. ¿Por qué DATE es preferible a VARCHAR para una fecha?
+4. ¿Por qué una edad puede ser TINYINT UNSIGNED?
+5. ¿Por qué un código 001234 podría ser CHAR o VARCHAR y no INT?
+6. ¿Qué diferencia conceptual existe entre:
+
 0
 FALSE
 NULL
 ''
-Pregunta 7
-¿Por qué puede ser problemático almacenar simultáneamente la fecha de nacimiento y la edad?
+
+7. ¿Por qué puede ser problemático almacenar simultáneamente la fecha de nacimiento y la edad?
 

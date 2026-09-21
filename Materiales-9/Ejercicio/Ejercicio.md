@@ -107,3 +107,106 @@ Preguntas:
 9. ¿Realmente necesitamos almacenar la edad?
 > **Respuesta:** No hace falta ya que existe fecha_nacimiento y se puede calcular la edad.
 
+
+Texto →
+
+Ejercicio 4 — ¿Número o texto?
+Indicar si cada dato debería analizarse como número o como texto:
+12345
+0012345
++54 11 4567-8900
+100
+000100
+2026
+00123456
+
+La clave del ejercicio es que no debemos mirar solamente los caracteres que forman el valor.
+Debemos preguntarnos:
+¿Qué representa el dato?
+
+
+
+
+#	Falta lo de abajo
+
+
+
+
+
+
+
+
+. Ejercicio 5 — Crear e insertar datos
+Crear la tabla:
+CREATE TABLE personas (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    apellido VARCHAR(100) NOT NULL,
+    nombre VARCHAR(100) NOT NULL,
+    fecha_nacimiento DATE,
+    salario DECIMAL(12,2),
+    activo BOOLEAN DEFAULT TRUE
+);
+Insertar al menos cinco personas:
+INSERT INTO personas
+(apellido, nombre, fecha_nacimiento, salario, activo)
+VALUES
+('García', 'Juan', '1985-03-12', 850000.50, TRUE),
+('Pérez', 'María', '1990-08-25', 920000.00, TRUE),
+('López', 'Carlos', '1978-11-03', 1100000.75, TRUE),
+('Gómez', 'Ana', '1995-06-18', 780000.00, FALSE),
+('Díaz', 'Pedro', '1969-04-15', 1250000.25, TRUE);
+Luego ejecutar:
+SELECT *
+FROM personas;
+
+59. Ejercicio 6 — Consultas
+Realizar las siguientes consultas:
+Personas activas
+SELECT *
+FROM personas
+WHERE activo = TRUE;
+
+Personas con salario superior a determinado valor
+SELECT *
+FROM personas
+WHERE salario > 900000;
+
+Ordenar por salario
+SELECT *
+FROM personas
+ORDER BY salario DESC;
+
+Obtener el salario promedio
+SELECT AVG(salario)
+FROM personas;
+
+
+
+Obtener el año de nacimiento
+SELECT
+    nombre,
+    apellido,
+    YEAR(fecha_nacimiento) AS anio_nacimiento
+FROM personas;
+
+60. Actividad final
+Responder:
+Pregunta 1
+¿Por qué no utilizar VARCHAR para almacenar un precio?
+Pregunta 2
+¿Por qué un número de teléfono puede ser texto?
+Pregunta 3
+¿Por qué DATE es preferible a VARCHAR para una fecha?
+Pregunta 4
+¿Por qué una edad puede ser TINYINT UNSIGNED?
+Pregunta 5
+¿Por qué un código 001234 podría ser CHAR o VARCHAR y no INT?
+Pregunta 6
+¿Qué diferencia conceptual existe entre:
+0
+FALSE
+NULL
+''
+Pregunta 7
+¿Por qué puede ser problemático almacenar simultáneamente la fecha de nacimiento y la edad?
+

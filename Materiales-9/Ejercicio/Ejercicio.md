@@ -125,17 +125,6 @@ Debemos preguntarnos:
 ¿Qué representa el dato?
 
 
-
-
-#	Falta lo de abajo
-
-
-
-
-
-
-
-
 . Ejercicio 5 — Crear e insertar datos
 
 
@@ -277,10 +266,16 @@ Responder:
 5. ¿Por qué un código 001234 podría ser CHAR o VARCHAR y no INT?
 6. ¿Qué diferencia conceptual existe entre:
 
+```sql
+
 0
 FALSE
 NULL
 ''
+
+```
+
+
 
 7. ¿Por qué puede ser problemático almacenar simultáneamente la fecha de nacimiento y la edad?
 

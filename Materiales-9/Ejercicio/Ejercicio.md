@@ -137,7 +137,14 @@ Debemos preguntarnos:
 
 
 . Ejercicio 5 — Crear e insertar datos
-Crear la tabla:
+
+
+> Crear la tabla:
+
+
+```sql
+
+
 CREATE TABLE personas (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     apellido VARCHAR(100) NOT NULL,
@@ -146,7 +153,18 @@ CREATE TABLE personas (
     salario DECIMAL(12,2),
     activo BOOLEAN DEFAULT TRUE
 );
+
+```
+
+
+
 Insertar al menos cinco personas:
+
+
+
+```sql
+
+
 INSERT INTO personas
 (apellido, nombre, fecha_nacimiento, salario, activo)
 VALUES
@@ -155,39 +173,98 @@ VALUES
 ('López', 'Carlos', '1978-11-03', 1100000.75, TRUE),
 ('Gómez', 'Ana', '1995-06-18', 780000.00, FALSE),
 ('Díaz', 'Pedro', '1969-04-15', 1250000.25, TRUE);
+
+
+```
+
+
+
+
+
 Luego ejecutar:
+
+
+```sql
+
 SELECT *
 FROM personas;
 
+
+```
+
+
+
 59. Ejercicio 6 — Consultas
 Realizar las siguientes consultas:
+
 Personas activas
+
+
+
+```sql
+
+
+
 SELECT *
 FROM personas
 WHERE activo = TRUE;
 
+
+
+```
+
+
+
 Personas con salario superior a determinado valor
+
+```sql
+
 SELECT *
 FROM personas
 WHERE salario > 900000;
 
+```
+
+
+
 Ordenar por salario
+
+```sql
+
 SELECT *
 FROM personas
 ORDER BY salario DESC;
 
+```
+
+
+
 Obtener el salario promedio
+
+```sql
+
 SELECT AVG(salario)
 FROM personas;
 
 
+```
+
+
 
 Obtener el año de nacimiento
+
+
+```sql
+
 SELECT
     nombre,
     apellido,
     YEAR(fecha_nacimiento) AS anio_nacimiento
 FROM personas;
+
+
+
+```
 
 60. Actividad final
 Responder:

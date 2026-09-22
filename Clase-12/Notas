@@ -1,0 +1,13 @@
+#   Clase-12
+#   22/9/26
+#   Somos Cinco
+
+El NULL es un tipo de dato especial. 
+Significa que no tiene valor. 
+No es 0 no es vacio no es falso. 
+Es la inexistencia de un valor. 
+
+Todo lo que se puede calcular(edad)
+No se guarda. 
+
+Replicacion de mariadb con galera cluster

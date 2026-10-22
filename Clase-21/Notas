@@ -1,0 +1,14 @@
+#   Clase-21
+#   22/10/26
+#   Somos Cuatro
+
+
+
+#   Termina mediado diciembre(13 clases mas)
+Funciones SQL
+Bloque de codigo reutilizable. 
+Funciones nativas(Built-in)
+Es mas rapido que se resuelva a nivel db que a nivel programacion. 
+Funciones definidas por el usuario(UDF)
+Las funciones son componente de una base de datos, no del servidor.
+Tiene una finalidad de traer y mostrar datos. 

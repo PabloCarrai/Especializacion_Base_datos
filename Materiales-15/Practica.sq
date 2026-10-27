@@ -1,0 +1,141 @@
+-- use funciones_db;
+-- select concat("Hola"," ","Mundo") as resultado;
+-- select substring("Mariadb",1,5) as resultado;
+-- select length("Bases de datos") as resultado;
+-- select round(123.4567,2) as resultado;
+-- select abs(-15.5) as resultado;
+-- select ceil(4.2) as resultado;
+-- select now() as resultado;
+-- select datediff("2026-12-31","2026-10-22") as resultado;
+-- select date_add("2026-10-22", interval 1 month) as resultado;
+-- select if(10 > 5, "Mayor","Menor") as resultado;
+-- select coalesce(NULL, NULL, "Valor por defecto") as resultado;
+-- select version() as resultado;
+-- select user() as resultado;
+-- use funciones_db;
+/* 
+delimiter //
+create function calcular_iva(precio decimal(10,2))
+returns decimal(10,2)
+deterministic
+begin
+declare resultado decimal(10,2);
+set resultado = precio * 0.21;
+return resultado;
+end //
+delimiter ;
+*/
+-- select calcular_iva(100);
+-- select nombre, calcular_iva(precio) as precio_con_iva from productos;
+-- use funciones_db;
+/*
+delimiter //
+create function doble(valor int)
+returns int
+deterministic
+begin
+return valor * 2;
+end //
+delimiter ;
+*/
+-- use funciones_db;
+/* 
+delimiter //
+create function hoy()
+returns date
+not deterministic
+begin
+return curdate();
+end //
+delimiter ;
+*/
+-- use funciones_db;
+/*
+delimiter //
+create function calcular_edad(fecha_nac date)
+returns int
+deterministic
+begin
+declare edad int;
+set edad = timestampdiff(year, fecha_nac, curdate());
+return edad;
+end //
+delimiter ;
+*/
+-- select nombre, calcular_edad(fecha_nacimiento) as edad from personas;
+-- use funciones_db;
+/* 
+DELIMITER //
+CREATE FUNCTION validar_dni(dni VARCHAR(10))
+RETURNS BOOLEAN
+DETERMINISTIC
+BEGIN
+  DECLARE es_valido BOOLEAN;
+  SET es_valido = dni REGEXP '^[0-9]{7,8}$';
+  RETURN es_valido;
+END //
+DELIMITER ;
+*/
+-- select nombre, validar_dni(dni) as dni_valido from ciudadanos;
+-- use funciones_db;
+/*
+delimiter //
+create function clasificar_edad(edad int)
+returns varchar(20)
+deterministic
+begin
+return case
+when edad < 13 then "Niño"
+when edad between 13 and 17 then "Adolescente"
+when edad between 18 and 64 then "Adulto"
+else "Mayor"
+end;
+end //
+delimiter ;
+*/
+-- select nombre, calcular_edad(fecha_nacimiento) as edad, clasificar_edad(calcular_edad(fecha_nacimiento)) as grupo_edad from personas;
+-- use funciones_db;
+/* 
+delimiter //
+create function celsius_a_fahrenheit(celsius decimal(5,2))
+returns decimal(5,2)
+deterministic
+begin
+return (celsius * 9 / 5) + 32;
+end //
+delimiter ;
+*/
+-- use funciones_db;
+/* 
+delimiter //
+create function area_circulo(radio decimal(5,2))
+returns decimal(10,2)
+deterministic
+begin
+return pi() * pow(radio,2);
+end //
+delimiter ;
+*/
+-- use funciones_db;
+/* 
+delimiter //
+create function obtener_fecha_hora()
+returns datetime
+not deterministic
+begin
+return now();
+end //
+delimiter ;
+*/
+-- use funciones_db;
+/* 
+delimiter //
+create function numero_azar(limite int)
+returns int
+not deterministic
+begin
+return floor(rand() * limite);
+end //
+delimiter ;
+*/
+

@@ -1,0 +1,19 @@
+#   Clase-25
+#   12/11/26
+#   Somos Tres
+
+
+Variables en Mariadb
+
+Basicamente la configuracion de Mariadb
+Se hace usando estas variables. 
+Se puede modificar una variable al momento. 
+Y para evitar reiniciar el servidor tocar ese
+mismo valor en el archivo de configuracion. 
+Con esto nos evitamos el reinicio. 
+Variables Globales afectan a todo el servidor. 
+Es a nivel Servidor. 
+No afectan a las sesiones abiertas. 
+Las de sesion o local afectan la conexion actual. 
+Se pueden definir para una conexion en particular. 
+

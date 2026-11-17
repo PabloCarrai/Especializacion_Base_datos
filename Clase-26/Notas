@@ -1,0 +1,15 @@
+#   Clase-26
+#   17/11/26
+#   Somos Dos?
+
+
+
+Normalizacion en db. 
+Desnormalizacion en db
+Jueves no hay clases. 
+
+Normalizar = Organizar los datos de manera eficiente
+Se quiere evitar redundancia e inconsistencia. 
+Redundancia no tener el mismo dato guardado en varios lugares. 
+
+El contenido de los campos tambien es importante. 
